@@ -4,7 +4,7 @@ drivers = 30
 passengers = 90
 cars_not_driven = cars - drivers
 cars_driven = cars - cars_not_driven
-carpool_capacity = cars_driven * spacen_in_a_car
+carpool_capacity = cars_driven * spaces_in_a_car
 average_passengers_per_car = passengers/cars
 
 puts "There are #{cars} cars available."
