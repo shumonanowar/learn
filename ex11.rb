@@ -1,14 +1,9 @@
-print "give me a number: "
-number = gets.chomp.to_f
+print "How old are you? "
+age = gets.chomp
+print "How tall are you? "
+height = gets.chomp
+print "How much do you weigh? "
+weight = gets.chomp
 
-bigger = number * 100
-puts "A bigger number is #{bigger}"
-bigger2 = bigger.to_i
-puts "A bigger number integer #{bigger2}"
+puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 
-
-smaller = number/100
-puts "A smaller number is #{smaller.to_i}"
-
-smaller = number.to_f/100
-puts "A smaller number is #{smaller}"
